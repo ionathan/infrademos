@@ -1,0 +1,12 @@
+@controls {
+  bottom-right {
+    label {
+      value: "CC-BY Infra Demos";
+    }
+  }
+}
+
+@settings {
+template: geo;
+  geo-location: "{{Location}}, Greece";
+}
