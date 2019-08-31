@@ -1,7 +1,7 @@
 @controls {
   bottom-right {
     label {
-      value: "CC-BY Infra Demos 2019";
+      value: "CC-BY-NC Infra-Demos, 2019";
     }
   }
 }
@@ -14,14 +14,27 @@
   connection-curvature: 0;
   element-text-align: center;
   layout-preset: dense;
-  include: school-network, school, solidarity-network, collaborators, hosting-collective, connection, loop;
   opposite-label: "";
   element-size: 75;
   element-color: categorize("Element Type", set2);
+
 }
 
 element["image"] {
   size: 80;
-  text-align:bottom;
+  label: "";
+  // text-align: bottom;
 }
 
+// #triti-sxesi {
+//     curvature: .15;  
+//     // size: 5;
+//     color: #7B6834;
+//       // width: 1;     // base width
+//       // scale: 2;     // multiple o
+//     // pattern: dashed;
+// }
+
+// #diktyo-allileggyon-sxoleion{
+//     shadow-color: #ccc;
+// }
